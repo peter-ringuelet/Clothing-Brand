@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    position: relative;
+    z-index: -3;
+}
+
+.container-login{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+    position: relative;
+    z-index: -1;
+  }
+
+.wrapper-login{
+    width: 100%;
+    background: #737270;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+
+.wrapper{
+    margin: -170px auto;
+}
+
+.wrapper-login .title-login{
+    height: 90px;
+    background: #349b6b;
+    border-radius: 5px 5px 0 0;
+    color: #FFFDD0;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-login form{
+    padding: 30px 25px 25px 25px;
+  }
+
+.wrapper-login form .row-login{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper-login form .row-login input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid #848489;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #737270;
+    color: #FFFDD0;
+}
+
+form .row-login input:focus{
+    border-color: #349b6b;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+  }
+  form .row-login input::placeholder{
+    color: #FFFDD055;
+  }
+  .wrapper-login form .row-login i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #FFFDD0;
+    font-size: 18px;
+    background: #349b6b;
+    border: 1px solid #2e5945;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-login form .pass-login{
+    margin: -8px 0 20px 0;
+  }
+  .wrapper-login form .pass-login a{
+    color: #349b6b;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .wrapper-login form .pass-login a:hover{
+    text-decoration: underline;
+  }
+  .wrapper-login form .row-button-login input{
+    color: #FFFDD0;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #349b6b;
+    border: 1px solid #349b6b;
+    cursor: pointer;
+    width: 100%;
+  }
+  form .row-button-login input:hover{
+    background: #2e5945;
+  }
+  .wrapper-login form .signup-link-login{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #FFFDD0;
+  }
+  .wrapper-login form .signup-link-login a{
+    color: #349b6b;
+    text-decoration: none;
+  }
+  form .signup-link-login a:hover{
+    text-decoration: underline;
+  }
+
+
